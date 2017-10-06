@@ -7,6 +7,6 @@ data "terraform_remote_state" "vpc" {
 }
 resource "null_resource" "key-create" {
   provisioner "local-exec" {
-    command = "ssh-keygen -b 4096 -t rsa -N '' -C vault -f vault.pem"
+    command = "ssh-keygen -b 4096 -t rsa -N '' -C projeto1 -f projeto1.pem"
   }
 }

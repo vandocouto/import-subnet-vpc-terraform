@@ -1,39 +1,43 @@
 variable "instance" {
-	default = "3"
+  default = "3"
+}
+
+variable "tag" {
+  default = "projeto1"
 }
 
 variable "ami" {
-	default = "ami-cd0f5cb6"
+  default = "ami-cd0f5cb6"
 }
 
 variable "region" {
   default = "us-east-1"
 }
+
 variable "type" {
   default = "t2.micro"
 }
+
 variable "ami_id" {
   default = "ami-ba1715ac"
 }
+
 variable "sg_name" {
-  default = "vault"
+  default = "projeto1"
 }
 
 variable "key" {
-  default = "vault"
+  default = "projeto1"
 }
 
 variable "type_disk_so" {
-        default = "gp2"
+  default = "gp2"
 }
 
 variable "size_so" {
-        default = "50"
+  default = "50"
 }
 
-variable "tag" {
-  default = "vault"
-}
 variable "ssh_user_name" {
   default = "ubuntu"
 }

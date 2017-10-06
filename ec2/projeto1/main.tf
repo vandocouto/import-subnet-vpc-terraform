@@ -1,6 +1,6 @@
 resource "aws_key_pair" "key-public" {
   key_name = "${var.key}"
-  public_key = "${file("key-pairs/vault.pem.pub")}"
+  public_key = "${file("key-pairs/projeto1.pem.pub")}"
 }
 
 resource "aws_security_group" "ec2" {
@@ -40,8 +40,8 @@ resource "aws_security_group" "ec2" {
   }
 }
 
-# deploy vault
-resource "aws_instance" "ec2-vault" {
+# deploy projeto1
+resource "aws_instance" "ec2-projeto1" {
   count = "${var.instance}"
   subnet_id = "${element(var.subnet, count.index)}"
   instance_type = "${var.type}"
@@ -63,7 +63,7 @@ resource "aws_instance" "ec2-vault" {
   provisioner "remote-exec" {
     connection {
       user = "${var.ssh_user_name}"
-      private_key = "${file("key-pairs/vault.pem")}"
+      private_key = "${file("key-pairs/projeto1.pem")}"
     }
 
     inline = [
