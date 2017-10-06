@@ -38,7 +38,7 @@ num=(len(data["Subnets"]))
 count=0
 list=[]
 subnets=""
-while ( count < num):
+while ( count < num ):
    subnets+= '"%s", '  %(str((data["Subnets"][count]["SubnetId"])))
    count = count + 1
 
