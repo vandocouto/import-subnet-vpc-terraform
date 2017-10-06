@@ -15,6 +15,7 @@ DirProjSUB="ec2/projeto1/subnets.tf"
 # generate vpc.tf
 json_data=open("vpc/aws-vpc.json").read()
 data = json.loads(json_data)
+
 vpc='"%s"' %data["Vpcs"][VPCiD]["VpcId"]
 print vpc
 
@@ -26,11 +27,11 @@ default = [%s]\n\
 }\n\
 ' %(vpc
    ))
+file.close()
 
 # generate subnets.tf
 json_data=open("sn/aws-sn.json").read()
 data = json.loads(json_data)
-
 
 num=(len(data["Subnets"]))
 count=0
@@ -47,6 +48,9 @@ default = [%s]\n\
 }\n\
 ' %(subnets[0:-2]
    ))
+file.close()
 
 
 print subnets[0:-2]
+
+
