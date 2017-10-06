@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eaf0255-285d-41f9-bcb5-730e41922b97" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ec2/projeto1/.terraform.tfstate.lock.info" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ec2/projeto1/terraform.tfstate.backup" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ec2/projeto1/terraform.tfstate.backup" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ec2/projeto1/.terraform.tfstate.lock.info" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ec2/projeto1/key-pairs/main.tf" afterPath="$PROJECT_DIR$/ec2/projeto1/key-pairs/main.tf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ec2/projeto1/key-pairs/terraform.tfstate" afterPath="$PROJECT_DIR$/ec2/projeto1/key-pairs/terraform.tfstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ec2/projeto1/main.tf" afterPath="$PROJECT_DIR$/ec2/projeto1/main.tf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ec2/projeto1/terraform.tfstate" afterPath="$PROJECT_DIR$/ec2/projeto1/terraform.tfstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ec2/projeto1/variables.tf" afterPath="$PROJECT_DIR$/ec2/projeto1/variables.tf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vpc-sub.py" afterPath="$PROJECT_DIR$/vpc-sub.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -281,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507318766053</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="funcionando">
+      <created>1507319561701</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1507319561701</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -328,7 +329,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aws cli" />
-    <option name="LAST_COMMIT_MESSAGE" value="aws cli" />
+    <MESSAGE value="funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="funcionando" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
